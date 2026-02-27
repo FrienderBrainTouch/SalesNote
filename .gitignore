@@ -1,0 +1,30 @@
+# Node / Vite / TypeScript 기본 무시 파일
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 환경 변수 / 설정
+.env
+.env.*
+!.env.example
+
+# 로그 / 임시 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# 에디터 / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# 테스트 / 커버리지
+coverage/
+*.lcov
+
